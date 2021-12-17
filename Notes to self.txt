@@ -1,8 +1,7 @@
 ### Notes for today
 
 Tidy up - make notes:
-1. Add coordinates.
-3. git commit
+1. Add coordinates to xarray.
 
 Optimise:
 1. Define proper flat priors
