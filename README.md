@@ -27,15 +27,13 @@ If you've never installed Docker, use this tutorial.
 https://www.youtube.com/watch?v=_9AWYlt86B8
 
 Check it's there:
-""
-docker --version
-""
+
+`docker --version`
+
 
 2. Check that the docker Daemon is actually running.
 
-""
-docker ps
-""
+`docker ps`
 
 If it is, you see a list of your current containers. Might be empty.
 Either way, you'll this:
@@ -61,12 +59,7 @@ https://www.youtube.com/watch?v=YFUhdxI4kcA
 You can get the path by 'Copy address as text' in the URL of your file manager.
 Be sure to stick the url in it's own quotes as below. This enters it as a string and will allow CMD to read any spaces in the path correctly.
 
-
-""
-cd "C://mypath/directory/my project/subfolder"
-""
-
-
+`cd "C://mypath/directory/my project/subfolder"`
 
 
 5. Define the python packages that you wish to use in requirements.txt file.
@@ -78,22 +71,16 @@ numpy
 
 6. Build the docker image
 
-""
-docker build -t jupyter_with_bespoke_python_packages .
-""
+`docker build -t jupyter_with_bespoke_python_packages .`
 
 7. Run your container on port 8888
 e.g.
 
-""
-docker run -p 8888:8888 -v "%CD%":/src jupyter_with_bespoke_python_packages
-""
+`docker run -p 8888:8888 -v "%CD%":/src jupyter_with_bespoke_python_packages`
 
 If you're on Mac or Linux:
 
-""
-docker run -p 8888:8888 -v "%PWD":/src jupyter_with_bespoke_python_packages
-""
+`docker run -p 8888:8888 -v "%PWD":/src jupyter_with_bespoke_python_packages`
 
 
 If the image isn't already on your machine, it'll be downloaded.
