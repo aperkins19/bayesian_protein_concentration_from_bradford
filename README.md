@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 This Docker Template will allow you to set up a Docker Image with Jupyter Notebook and any Python Packages that you wish to install.
 
@@ -10,9 +10,7 @@ The major difference is in the docker run command (see step 5)
 
 All lines of code and Command Line Commands are flanked by double quotes e.g.
 
-""
-copy this code into the command line.py
-""
+`copy this code into the command line.py`
 
 If you have any issues, please contact me.
 Alex Perkins
@@ -20,7 +18,7 @@ a.j.p.perkins@sms.ed.ac.uk
 
 
 
-BUILD AND RUN DOCKER CONTAINER.
+# BUILD AND RUN DOCKER CONTAINER.
 
 1. Check Docker is installed.
 If you've never installed Docker, use this tutorial.
