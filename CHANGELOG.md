@@ -8,6 +8,7 @@ Optimise:
 2. Tune hyperparameters
 3. Use for all the different datasets.
 
+## Key lecture on the maths of bayesian logistic regression
 Corrie bartelheimer: https://www.youtube.com/watch?v=WbNmcvxRwow&t=1481s
 
 useful git:
